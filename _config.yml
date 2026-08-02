@@ -1,0 +1,25 @@
+title: "Exchange Experience | Study Abroad Guide"
+description: "Подробный гайд, личный опыт и лайфхаки учебы по обмену."
+theme: "just-the-docs"
+
+# Ссылка на ваш сайт на GitHub Pages
+url: "https://sssstern.github.io"
+baseurl: "/bmstu_exchange_program_agrentina" # Название вашего репозитория
+
+# Включение поиска по сайту
+search_enabled: true
+search:
+  tokenizer_separator: /[\s\-\.]+/
+
+# Настройки навигации
+nav_sort: order
+
+# Включение кнопки переключения темы (Dark/Light mode)
+color_scheme: light
+
+# Нижняя колонка (Footer)
+footer_content: "© 2026. Создано с помощью Jekyll & Just the Docs. Контент распространяется под лицензией CC BY 4.0."
+
+# Настройки генерации кода
+markdown: kramdown
+highlighter: rouge
