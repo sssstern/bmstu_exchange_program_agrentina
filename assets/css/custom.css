@@ -1,0 +1,43 @@
+/* --- Фикс размеров поиска --- */
+.search-input {
+    font-size: 14px !important;
+    height: 38px !important;
+    padding: 6px 12px !important;
+  }
+  
+  .search-input-wrap {
+    max-width: 500px !important;
+    margin: 0 auto;
+  }
+  
+  .search-result {
+    font-size: 14px !important;
+  }
+  
+  /* --- Ограничение высоты выпадающего списка поиска --- */
+  .search-results-list {
+    max-height: 400px !important;
+    overflow-y: auto !important;
+  }
+  
+  /* --- Корректировка размеров иконок и значков --- */
+  svg.icon,
+  .site-title svg,
+  .search-label svg {
+    width: 18px !important;
+    height: 18px !important;
+    max-width: 18px !important;
+    max-height: 18px !important;
+  }
+  
+  /* --- Исправление размеров плашек/картинок в тексте --- */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Принудительное ограничение размера плашек Shields.io */
+  img[src*="shields.io"] {
+    height: 24px !important;
+    width: auto !important;
+  }

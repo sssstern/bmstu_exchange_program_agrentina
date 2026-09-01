@@ -23,3 +23,11 @@ footer_content: "© 2026. Создано с помощью Jekyll & Just the Doc
 # Настройки генерации кода
 markdown: kramdown
 highlighter: rouge
+
+# Подключение собственных CSS-стилей
+aux_links: {}
+aux_links_new_window: true
+
+# Добавляем путь к нашему стилю
+site_css:
+  - assets/css/custom.css
