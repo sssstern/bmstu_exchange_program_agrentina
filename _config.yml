@@ -27,7 +27,3 @@ highlighter: rouge
 # Подключение собственных CSS-стилей
 aux_links: {}
 aux_links_new_window: true
-
-# Добавляем путь к нашему стилю
-site_css:
-  - assets/css/custom.css
